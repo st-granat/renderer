@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["railscode@gmail.com"]
   gem.description   = "Rails 3 render view partials as string in models or modules"
   gem.summary       = "Rails 3 render view partials as string in models or modules"
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/vav/renderer"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
