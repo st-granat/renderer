@@ -1,7 +1,7 @@
 # coding: utf-8
 module Renderer
   def self.render(partial, locals={}, helpers=[])
-    view = ActionView::Base.new(Rails.root.join('app', 'views'))
+    view = ActionView::Base.new(Renderer.app_root.join('app', 'views'))
     helpers.each do |helper|
       view.extend(helper)
     end
