@@ -4,6 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'renderer/version'
 
 Gem::Specification.new do |gem|
+  gem.license       = "MIT"
   gem.name          = "renderer"
   gem.version       = Renderer::VERSION
   gem.authors       = ["Andrey"]
